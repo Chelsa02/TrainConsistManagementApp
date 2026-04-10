@@ -6,6 +6,7 @@ public class Bogie {
         this.name = name;
         this.capacity = capacity;
     }
+
     @Override
     public String toString() {
         return name + " (" + capacity + " seats)";
