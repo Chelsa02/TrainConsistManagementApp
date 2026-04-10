@@ -8,23 +8,6 @@ import java.util.List;
  * ===============================================================
  * Represents a passenger bogie with name and capacity
  */
-class Bogie {
-    String name;
-    int capacity;
-
-    // Constructor
-    Bogie(String name, int capacity) {
-        this.name = name;
-        this.capacity = capacity;
-    }
-
-    // toString method for printing
-    @Override
-    public String toString() {
-        return name + " (" + capacity + " seats)";
-    }
-}
-
 /**
  * ===============================================================
  * MAIN CLASS - SortBogiesByCapacity
